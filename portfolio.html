@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+  		<script src="http://html5shiv.googlecode.com/trunk/html5.js"></script>
+  	<![endif]-->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollme.js"></script>  -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--scroll up icon cdn-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- fade in library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- fade in css -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/parallax.js"></script> <!-- parrallax library -->
+
+    <title>포트폴리오</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#" onclick="pageMove('1')">HOME</a></li>
+          <li><a href="#" onclick="pageMove('2')">ABOUT ME</a></li>
+          <li><a href="#" onclick="pageMove('3')">SKILL</a></li>
+          <li><a href="#" onclick="pageMove('4')">PORTFOLIO</a></li>
+          <li><a href="#" onclick="pageMove('5')">CONTACT ME</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contents">
+      <div class="section s1">
+
+        <video src="cloud.mp4" autoplay muted loop></video>
+        <div class="typing-txt">
+          <ul>
+            <li>WELCOME</li>
+            <li>TO MY PORTFOLIO SITE</li>
+            <li>PLEASE, TAKE A LOOK!</li>
+          </ul>
+        </div>
+
+        <div class="typing">
+           <ul>
+             <li></li>
+             <li></li>
+             <li></li>
+             <li></li>
+          </ul>
+        </div>
+
+        <!-- <div id="animated-example" class="animated bounce"><i class="fas fa-mouse"></i></div> -->
+      </div>
+
+      <div class="section s2">
+        <h1 data-aos="fade-down" data-aos-duration="1000">ABOUT ME</h1>
+        <hr data-aos="fade-down" data-aos-duration="1000">
+        <div class="section2-container">
+
+          <div class="section2-container-left" data-aos="fade-right" data-aos-duration="1000">
+            <img src="my2.jpg" alt="">
+            <div class="overlay">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+          </div>
+
+          <div class="section2-container-right" data-aos="fade-left" data-aos-duration="1000">
+            <div class="section2-container-right-header">
+              <div class="active">PROFILE</div>
+              <div>HISTORY</div>
+              <div>LISENCE</div>
+            </div>
+
+            <div class="section2-container-right-content">
+              <div class="profile active">
+                <h2>PROFILE</h2>
+                <h3>01</h3>
+                <p>
+                  NAME &nbsp&nbsp&nbsp 구원모<br><br><br>
+                  AGE &nbsp&nbsp&nbsp 27세(1994.11.03)<br><br><br>
+                  ADDRESS &nbsp&nbsp&nbsp 경기도 안양시 만안구<br><br><br>
+                  PHONE NUMBER &nbsp&nbsp&nbsp 010-2062-1872<br><br><br>
+                  E-MAIL &nbsp&nbsp&nbsp guwonmo2@gmail.com<br><br>
+                </p>
+              </div>
+
+              <div class="history">
+                <h2>HISTORY</h2>
+                <h3>02</h3>
+                <p>
+                  2013.03 ~ 2018.02 - 연성대학교 컴퓨터 소프트웨어과 졸업<br><br>
+                  2018.01 ~ 2018.06 - 더조은컴퓨터학원(강남) '자바기반 사물인터넷 IOT' 수료<br><br>
+                  2019.03 ~ 2020.02 - 연성대학교 학사학위 전공심화과정 수료<br><br>
+                  2020.04 ~ 2020.09 - 더조은컴퓨터학원(안양) '멀티미디어앱 웹콘텐츠 제작' 수료<br>
+                </p>
+              </div>
+
+              <div class="lisence">
+                <h2>LICENSE</h2>
+                <h3>03</h3>
+                <p>
+                  웹디자인 기능사 필기(2020.07 취득)<br><br>
+                  정보처리기사(2019.11 취득)<br><br>
+                  컴퓨터 활용능력 2급(2018.12 취득)<br><br>
+                  MOS master(2014.08 취득)<br><br>
+                  1종 보통 운전 면허(2013.09 취득)<br>
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div> <!--section2-container-->
+      </div> <!--section2-->
+
+        <div class="section s3">
+        <div class="skill">
+          <h1 data-aos="fade-down" data-aos-duration="1000">SKILL</h1>
+          <hr data-aos="fade-down" data-aos-duration="1000">
+
+          <!-- <div class="under-line" data-aos="fade-down" data-aos-duration="1000"></div> -->
+
+          <ul>
+            <li data-aos="fade-right" data-aos-duration="2000">
+              <i class="fab fa-html5"></i>
+              <h3>HTML5</h3>
+              <p style="font-size:16px">
+                사용자의 편리성을 고려한 마크업<br><br>
+                의미 있는 시맨틱 태그를 사용<br><br>
+              </p>
+            </li>
+
+            <li data-aos="fade-right" data-aos-duration="2000">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS3</h3>
+              <p>
+                - CSS3 속성의 이해<br><br>
+                - 완벽한 디자인 구현<br><br>
+                - 반응형 웹 제작<br>
+              </p>
+            </li>
+
+            <li data-aos="fade-right" data-aos-duration="2000">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+              <p>
+                - JavaScript 기본 문법 이해<br><br>
+                - jQuery를 사용하여 기능 구현<br><br>
+                - 다양한 라이브러리 활용 가능<br>
+              </p>
+            </li>
+
+            <li data-aos="fade-left" data-aos-duration="2000">
+              <i class="fab fa-adobe"></i>
+              <h3>ADOBE</h3>
+              <p>
+                - 다양한 크래픽 툴의 사용과 응용<br><br>
+                - 기본 디자인툴을 이용한 디자인 이미지 편집 가능<br><br>
+              </p>
+            </li>
+
+            <li data-aos="fade-left" data-aos-duration="2000">
+              <i class="fab fa-microsoft"></i>
+              <h3>MS-OFFICE</h3>
+              <p>
+                - Power Point로 ppt 작업 가능 <br><br>
+                - Excel 간단한 함수 사용 가능<br><br>
+              </p>
+            </li>
+
+            <li data-aos="fade-left" data-aos-duration="2000">
+              <i class="fab fa-dev"></i>
+              <h3>IDE</h3>
+              <p>
+                - EditorPlus를 사용한 코딩<br><br>
+                - Atom을 사용한 코딩<br><br>
+              </p>
+            </li>
+          </ul>
+
+        </div> <!--skill-->
+      </div> <!--s3-->
+
+      <div class="section s4">
+
+        <div class="s4-wrap">
+          <h1 data-aos="fade-down" data-aos-duration="1000">PORTFOLIO</h1>
+          <hr data-aos="fade-down" data-aos-duration="1000">
+          <div class="s4-top">
+            <div class="s4-top-left" data-aos="fade-right" data-aos-duration="1000">
+              <a href="http://guwonmo2.dothome.co.kr/project02/main.html">
+                <img src="img/project2.png" alt="">
+              </a>
+            </div>
+
+            <div class="s4-top-right" data-aos="fade-left" data-aos-duration="1000">
+              <h1>01</h1>
+              <span>자체제작 OTT(Over The Top) 페이지</span>
+
+              <div class="s4-content-wrap">
+                <p> - PRODUCTIOC PERIOD : 2020.06 ~ 2020.07</p>
+                <p> - RESPONSIVE WEB</p>
+                <p> - PUBLISHING 100%</p>
+                <p> - 메인페이지,탐색하기,이용권,공지사항페이지 제작</p>
+              </div>
+
+              <div class="s4-top-right-btn">
+                <p onclick="document.getElementById('id01').style.display='block'">CODE VIEW</p>
+                <p><a target="_blank" href="http://guwonmo2.dothome.co.kr/project02/main.html">PAGE VIEW</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="s4-mid">
+            <div class="s4-mid-left" data-aos="fade-right" data-aos-duration="1000">
+              <h1>02</h1>
+              <span>인천공항 리뉴얼 페이지</span>
+
+              <div class="s4-content-wrap">
+                <p> - PRODUCTIOC PERIOD : 2020.07 ~ 2020.08</p>
+                <p> - RESPONSIVE WEB</p>
+                <p> - PUBLISHING 100%</p>
+                <p> - 메인 페이지,식당 페이지,디즈니콜라보 페이지 제작</p>
+              </div>
+
+              <div class="s4-top-right-btn">
+                <p onclick="document.getElementById('id02').style.display='block'">CODE VIEW</p>
+                <p><a href="http://guwonmo2.dothome.co.kr/project03/html/index.html" target="_blank">PAGE VIEW</a></p>
+              </div>
+            </div>
+
+            <div class="s4-mid-right" data-aos="fade-left" data-aos-duration="1000">
+                <img src="img/project3.png" alt="">
+            </div>
+          </div>
+
+          <div class="s4-bot">
+            <div class="s4-bot-left" data-aos="fade-right" data-aos-duration="1000">
+              <img src="img/portfolio.png" alt="">
+            </div>
+
+            <div class="s4-bot-right" data-aos="fade-left" data-aos-duration="1000">
+              <h1>03</h1>
+              <span>Gu's PORTFOLIO 페이지</span>
+
+              <div class="s4-content-wrap">
+                <p> - PRODUCTIOC PERIOD : 2020.08 ~ 2020.09</p>
+                <p> - RESPONSIVE WEB</p>
+                <p> - PUBLISHING 100%</p>
+                <p> - 메인 페이지 제작</p>
+              </div>
+
+              <div class="s4-top-right-btn">
+                <p>CODE VIEW</p>
+                <p>PAGE VIEW</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="section s5 parallax-window" data-parallax="scroll" data-image-src="img/keyboard.jpg">
+        <br><br><br><br>
+        <div class="s5-wrap" data-aos="zoom-in" data-aos-duration="1000">
+          <h1 style="color:#EFEBE7">CONTACT ME</h1>
+          <p>아래 번호 및 이메일로 연락주시기 바랍니다</p>
+            <div class="s5-wrap-left">
+              <h3>CONTACT INFO</h3>
+
+              <div class="address">
+                <i class="fas fa-map-marker-alt"> Address</i>
+                <span>경기도 안양시 만안구 삼봉로35</span >
+              </div>
+
+              <div class="phone">
+                <i class="fas fa-phone-alt"> Phone</i>
+                <span>010-2062-1872</span >
+              </div>
+
+              <div class="email">
+                <i class="far fa-envelope"> Email</i>
+                <span>guwonmo2@gmail.com</span >
+              </div>
+
+            </div>
+
+            <div class="s5-wrap-right">
+              <h3>MESSAGE ME</h3>
+              <form class="">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Your Message">
+                <input type="button" name="SEND" value="SEND">
+              </form>
+            </div>
+          </div>
+      </div>
+    </div> <!--contents-->
+
+    <button id="btnScroll">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <!-- bookmark -->
+    <script>
+      function pageMove(seq){
+          var offSet = $(".s" + seq).offset();
+          $('html, body').animate({scrollTop : offSet.top}, 1000);
+      }
+    </script>
+
+    <!-- scroll up-->
+    <script>
+      $("#btnScroll").hide();
+      $(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop()>100) {
+            $('#btnScroll').fadeIn();
+          } else {
+            $('#btnScroll').fadeOut();
+          }
+        });
+
+        $("#btnScroll").click(function(){
+          $('body,html').animate({
+            scrollTop:0
+          }, 700);
+          return false;
+        })
+      })
+    </script>
+
+    <!-- AOS js -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- parallax js -->
+    <script>
+      $('.s5').parallax({imageSrc: 'img/keyboard.jpg'});
+    </script>
+
+    <script>
+      var typingBool = false;
+      var typingIdx=0;
+      var liIndex = 0;
+      var liLength = $(".typing-txt>ul>li").length;
+
+      // 타이핑될 텍스트를 가져온다
+      var typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
+      //liIndex 인덱스로 구분해 한줄씩 가져옴
+
+      typingTxt=typingTxt.split(""); // 한글자씩 잘라 배열로만든다
+
+      if(typingBool==false){ // 타이핑이 진행되지 않았다면
+        typingBool=true;
+        var tyInt = setInterval(typing,100); // 반복동작
+      }
+
+      function typing(){
+      $(".typing ul li").removeClass("on");
+       $(".typing ul li").eq(liIndex).addClass("on");
+      //현재 타이핑되는 문장에만 커서 애니메이션을 넣어준다.
+
+      if(typingIdx<typingTxt.length){ // 타이핑될 텍스트 길이만큼 반복
+         $(".typing ul li").eq(liIndex).append(typingTxt[typingIdx]); // 한글자씩 이어준다.
+         typingIdx++;
+       } else{ //한문장이끝나면
+         if(liIndex<liLength-1){
+         //다음문장으로  가기위해 인덱스를 1증가
+           liIndex++;
+         //다음문장을 타이핑하기위한 셋팅
+            typingIdx=0;
+            typingBool = false;
+            typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
+
+         //다음문장 타이핑전 1초 쉰다
+             clearInterval(tyInt);
+              //타이핑종료
+
+             setTimeout(function(){
+               //1초후에 다시 타이핑 반복 시작
+               tyInt = setInterval(typing,100);
+             },1000);
+            } else if(liIndex==liLength-1){
+
+             //마지막 문장까지 써지면 반복종료
+               clearInterval(tyInt);
+
+              //1초후
+              setTimeout(function(){
+                //사용했던 변수 초기화
+                typingBool = false;
+              liIndex=0;
+              typingIdx=-0;
+
+                //첫번째 문장으로 셋팅
+              typingTxt = $(".typing-txt>ul>li").eq(liIndex).text();
+                   //타이핑 결과 모두 지우기
+              $(".typing ul li").html("")
+
+                //반복시작
+                tyInt = setInterval(typing,100);
+              }, 1000);
+            }
+        }
+      }
+    </script>
+
+    <script>
+      let tabPanes =
+      document.getElementsByClassName("section2-container-right-header")[0].getElementsByTagName("div");
+
+      for(let i=0; i<tabPanes.length; i++) {
+        tabPanes[i].addEventListener("click",function(){
+          document.getElementsByClassName("section2-container-right-header")[0].getElementsByClassName("active")
+          [0].classList.remove("active");
+          tabPanes[i].classList.add("active");
+
+          document.getElementsByClassName("section2-container-right-content")
+          [0].getElementsByClassName("active")
+          [0].classList.remove("active");
+
+          document.getElementsByClassName("section2-container-right-content")
+          [0].getElementsByTagName("div")
+          [i].classList.add("active");
+        })
+      }
+    </script>
+
+    <script>
+      $(window).scroll(function(){
+        if($(this).scrollTop()>150) {
+          $('header').addClass("sticky");
+        } else {
+          $('header').removeClass("sticky");
+        }
+      })
+    </script>
+
+  </body>
+
+</html>
